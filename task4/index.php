@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
   $radio = (!empty($_COOKIE['radio_error']) ? $_COOKIE['radio_error'] : '');
   $lang = (!empty($_COOKIE['lang_error']) ? $_COOKIE['lang_error'] : '');
   $biography = (!empty($_COOKIE['biography_error']) ? $_COOKIE['biography_error'] : '');
-  $check_mark = (!empty($_COOKIE['check_mark_error']) ? $_COOKIE['check_mark_error'] : '');
+  $check_mark = (!empty($_COOKIE['check_mark_error']) ? $_COOKIE['_error'] : '');
 
   $errors = array();
   $messages = array();
